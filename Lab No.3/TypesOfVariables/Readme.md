@@ -1,4 +1,4 @@
-### 1. TYPES OF VARIABLES
+###  TYPES OF VARIABLES
 There are three types of variables in Java:
 
 * Local Variable
