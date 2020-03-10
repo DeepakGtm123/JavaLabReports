@@ -23,19 +23,19 @@ Following steps are required to perform event handling:
 
 ### Registration Methods
 For registering the component with the Listener, many classes provide the registration methods. For example:
-- Button
+- Button: 
   public void addActionListener(ActionListener a){}
-- MenuItem
+- MenuItem:
   public void addActionListener(ActionListener a){}
-- TextField
+- TextField: 
   public void addActionListener(ActionListener a){} , public void addTextListener(TextListener a){}
-- TextArea
+- TextArea:
   public void addTextListener(TextListener a){}
-- Checkbox
+- Checkbox:
   public void addItemListener(ItemListener a){}
-- Choice
+- Choice:
   public void addItemListener(ItemListener a){}
-- List
+- List:
   public void addActionListener(ActionListener a){} , public void addItemListener(ItemListener a){}
 
 ### Java Event Handling Code
