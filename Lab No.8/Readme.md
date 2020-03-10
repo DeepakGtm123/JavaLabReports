@@ -28,17 +28,15 @@ For registering the component with the Listener, many classes provide the regist
 - MenuItem
   public void addActionListener(ActionListener a){}
 - TextField
-  public void addActionListener(ActionListener a){}
-  public void addTextListener(TextListener a){}
+  public void addActionListener(ActionListener a){} , public void addTextListener(TextListener a){}
 - TextArea
   public void addTextListener(TextListener a){}
 - Checkbox
   public void addItemListener(ItemListener a){}
--Choice
- public void addItemListener(ItemListener a){}
-- List
-  public void addActionListener(ActionListener a){}
+- Choice
   public void addItemListener(ItemListener a){}
+- List
+  public void addActionListener(ActionListener a){} , public void addItemListener(ItemListener a){}
 
 ### Java Event Handling Code
 We can put the event handling code into one of the following places:
